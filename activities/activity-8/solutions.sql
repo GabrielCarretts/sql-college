@@ -1,3 +1,5 @@
+-- WARNING: This setup deletes and recreates the activity_8_db exercise database.
+DROP DATABASE IF EXISTS atividade_8_db;
 CREATE DATABASE atividade_8_db;
 USE atividade_8_db;
 
