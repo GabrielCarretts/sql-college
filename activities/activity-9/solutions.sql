@@ -1,3 +1,5 @@
+-- WARNING: This setup deletes and recreates the atividade9 exercise database.
+DROP DATABASE IF EXISTS atividade9;
 CREATE DATABASE atividade9;
 USE atividade9;
 
