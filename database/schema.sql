@@ -1,0 +1,3 @@
+-- PLACEHOLDER: Original database schema was not available.
+-- Add the original MySQL table definitions, relationships, and constraints here.
+-- No schema has been invented. This file contains no executable statements.

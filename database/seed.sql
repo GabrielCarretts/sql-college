@@ -1,0 +1,3 @@
+-- PLACEHOLDER: Original sample data was not available.
+-- Add reviewed, non-sensitive college sample data here after restoring the schema.
+-- No data has been invented. This file contains no executable statements.
