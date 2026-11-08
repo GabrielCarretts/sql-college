@@ -13,7 +13,7 @@ My Information Systems coursework in MySQL, from creating related tables to quer
 
 ## Running the exercises
 
-Use MySQL Workbench with a disposable local MySQL server. Each activity includes its own setup and sample data. Activities 10 and 11 both recreate atividade_10. Activities 12 and 13 recreate their respective databases. Run the setup for the activity you are studying, then highlight one exercise at a time.
+Use MySQL Workbench with a disposable local MySQL server. Each activity includes its own setup and sample data. **Warning:** The setup scripts drop and recreate their exercise databases, deleting any existing data in those databases. Activities 10 and 11 both recreate `atividade_10`. Activities 8, 9, 12 and 13 recreate their own exercise databases. Run the setup for the activity you are studying, then highlight one exercise at a time.
 
 ## Course database
 
