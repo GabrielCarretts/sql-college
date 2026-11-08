@@ -17,8 +17,6 @@ Practice using nested queries to compare employees and identify groups from aggr
 
 SELECT, WHERE, subqueries, aggregate functions, and comparisons against query results.
 
-## Status and execution
+## Running the script
 
-[solutions.sql](solutions.sql) contains clearly labeled placeholders only. Original solutions and the college database are still required.
-
-Follow the [database setup instructions](../../README.md#database-setup-and-execution), select the practice database in MySQL Workbench, then open the solutions file and execute each query separately once available. Preserve original queries when adding them. Check the assignment's expected behavior for ties and empty groups before assessing results.
+Open [solutions.sql](solutions.sql) in MySQL Workbench on a disposable local server. The file includes its own database setup. Read the opening statements before running them, then select and execute one exercise at a time. The setup drops and recreates the database named in the script. Select exercise 1 explicitly when running it. Its original text has no terminating semicolon before exercise 2.

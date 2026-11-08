@@ -1,54 +1,24 @@
 # SQL College
 
-College SQL exercises documenting my learning as an Information Systems student.
-
-## Technologies and topics
-
-MySQL, SQL, and MySQL Workbench. Topics include SELECT, WHERE, JOIN, GROUP BY, HAVING, aggregate functions, and subqueries.
-
-## Current progress
-
-The repository structure and exercise descriptions are ready. No original SQL solutions or database dumps were found in the inspected workspace or Downloads directory. All four SQL files are comment-only placeholders: no exercises are marked as completed, and no schema or sample data has been invented.
-
-## Repository structure
-
-```text
-sql-college/
-├── README.md
-├── .gitignore
-├── database/
-│   ├── schema.sql
-│   └── seed.sql
-└── activities/
-    ├── activity-12/
-    │   ├── README.md
-    │   └── solutions.sql
-    └── activity-13/
-        ├── README.md
-        └── solutions.sql
-```
+My Information Systems coursework in MySQL, from creating related tables to querying project participation with subqueries. Each activity preserves the original SQL script and its comments.
 
 ## Activities
 
-| Activity | Focus | Status |
-| --- | --- | --- |
-| [Activity 12](activities/activity-12/README.md) | Aggregation and JOINs | Awaiting original solutions |
-| [Activity 13](activities/activity-13/README.md) | Subqueries | Awaiting original solutions |
+- [Activity 8 — Table design and data changes](activities/activity-8/README.md)
+- [Activity 9 — Filtering and sorting](activities/activity-9/README.md)
+- [Activity 10 — Employee and project JOINs](activities/activity-10/README.md)
+- [Activity 11 — String and aggregate functions](activities/activity-11/README.md)
+- [Activity 12 — Aggregation and JOINs](activities/activity-12/README.md)
+- [Activity 13 — Subqueries](activities/activity-13/README.md)
 
-## Database setup and execution
+## Running the exercises
 
-1. Install MySQL and MySQL Workbench and connect to a local learning server.
-2. Obtain the original college database scripts. Review their database names and statements before execution.
-3. Place the table definitions in [schema.sql](database/schema.sql) and the sample data in [seed.sql](database/seed.sql), preserving relationships, constraints, statement order, and any required session settings. Keep an original dump outside version control.
-4. In Workbench, open and run the schema script first, then the seed script. Use a dedicated practice database and select it as the default schema.
-5. Open an activity's `solutions.sql` and run each exercise separately once its original query is available.
+Use MySQL Workbench with a disposable local MySQL server. Each activity includes its own setup and sample data. Activities 10 and 11 both recreate atividade_10. Activities 12 and 13 recreate their respective databases. Run the setup for the activity you are studying, then highlight one exercise at a time.
 
-The current placeholder scripts create no database, tables, or records and return no exercise results.
+## Course database
+
+The separate course dump is available as [schema.sql](database/schema.sql) and [seed.sql](database/seed.sql). Run them in order in the same session. The schema script drops and recreates atividade_12. Its sample projects differ from the activity 12 script, so use the activity's embedded data to reproduce that exercise.
 
 ## Learning progress
 
-This repository records practice and gradual improvement; it does not claim completed work where source files are missing. Add future activities under `activities/activity-N/` with a README and solutions file. Update the activity index as work progresses.
-
-Preserve original solutions when adding them. For new queries, use uppercase SQL keywords, one SELECT column per line, consistent indentation, aligned JOIN and ON clauses, meaningful aliases, and indented subqueries. Separate exercises with comments.
-
-Keep credentials, local connection settings, private data, and database backups out of Git. Review any original dump before publishing it.
+Activities 8–13 cover table constraints, data changes, SELECT, WHERE, JOIN, GROUP BY, HAVING, aggregate functions, and subqueries. Future activities follow the same numbered folder structure.

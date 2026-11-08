@@ -35,3 +35,16 @@ dumps/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Original course materials retained locally
+/Aulas Gravadas/
+/Slides/
+/atividade_*.txt
+/atividade_*.sql
+/dump.txt
+/locadora.txt
+/mercado.txt
+/*.chc
+/*.jar
+/modelo_*.brM3
+/modelo_*.png
