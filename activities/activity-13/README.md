@@ -19,4 +19,4 @@ SELECT, WHERE, subqueries, aggregate functions, and comparisons against query re
 
 ## Running the script
 
-Open [solutions.sql](solutions.sql) in MySQL Workbench on a disposable local server. The file includes its own database setup. Read the opening statements before running them, then select and execute one exercise at a time. The setup drops and recreates the database named in the script. Select exercise 1 explicitly when running it. Its original text has no terminating semicolon before exercise 2.
+Open [solutions.sql](solutions.sql) in MySQL Workbench on a disposable local server. The file includes its own database setup. Read the opening statements before running them, then select and execute one exercise at a time. The setup drops and recreates the database named in the script.
