@@ -136,7 +136,7 @@ FROM tb_empregado
 WHERE salario >
 				(SELECT AVG(salario)
 				 FROM tb_empregado)
-ORDER BY salario ASC
+ORDER BY salario ASC;
 
 		#Exercício 2
 SELECT nome as Nome,
