@@ -10,7 +10,7 @@ Projeto acadêmico desenvolvido para a disciplina de Banco de Dados do curso de 
 
 - [`biblioteca_carlos.sql`](biblioteca_carlos.sql) — script completo para criar o banco, as tabelas, as chaves estrangeiras e os dados de exemplo.
 - [`consultas.sql`](consultas.sql) — as 14 consultas solicitadas no estudo de caso, incluindo JOIN, GROUP BY, HAVING, funções de agregação, subconsultas, CASE e WITH (CTE).
-- **Diagrama EER (PNG)** — gerado no MySQL Workbench por engenharia reversa; adicionar o arquivo exportado à pasta do projeto.
+- [**Diagrama EER (PNG)**](biblioteca_carlos_modelo_lógico.png) — modelo exportado do MySQL Workbench por engenharia reversa, mostrando tabelas, chaves e relacionamentos.
 
 ### Estrutura
 
@@ -36,7 +36,7 @@ Academic database project for an Information Systems course. Adapted from the **
 
 - [`biblioteca_carlos.sql`](biblioteca_carlos.sql) — complete schema definition, foreign keys, and sample data.
 - [`consultas.sql`](consultas.sql) — 14 SQL queries covering JOIN, GROUP BY, HAVING, aggregate functions, subqueries, CASE, and WITH (CTEs).
-- **EER diagram (PNG)** — exported using MySQL Workbench reverse engineering; the exported diagram should be added to this folder.
+- [**EER diagram (PNG)**](biblioteca_carlos_modelo_lógico.png) — model exported from MySQL Workbench using reverse engineering, showing tables, keys, and relationships.
 
 ### Schema
 
